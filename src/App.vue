@@ -1,10 +1,5 @@
 <template>
-       <v-app id="app" standalone>
-        <v-toolbar fixed>
-             <v-container>
-            <v-toolbar-title class="orange--text text-xs-center">Streaming Speech Recognition</v-toolbar-title>
-            </v-container>
-        </v-toolbar>
+    <v-app id="app" standalone>
         <main>
             <v-container>
                <router-view></router-view>

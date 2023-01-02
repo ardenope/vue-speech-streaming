@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "momu-speech",
+    "private_key_id": "ffeee46ff1860a8932199f56d20164feaa8052e2",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCb7J8WJBCDt/qC\nDzBuC0gI7lVrp/yF3PzDtBGW/xIL7zZ9SfrFb7CQ15XJ2FaXiLTbU4aBumVRw4eH\n3PHlUZMXSfWOw2at2bJUj29syOcU1BhfcIFTNHWFQGsvLRdtxZvgQrnyf9szAnzw\n5n563TVkIKWhyGH041F7z+t1edtyeM2I0uJ7gJi60a8SCPJtOeyV2dBVXiLsBWRj\n+zSpbHOsT+2DQIyyaUCFbGRfuJ0mWBJTqUbdRkZasSlH/pgBPTsz/A4WfE3u85hp\nmoCfT3gUP18oXPm3w28/rKJEG3E6RGeT2qjPx8XDC3f5+jG0l0JNzHAoVJrxvBp6\nZDi31UBBAgMBAAECggEAAdyWd/w457F0GuKGgsUY/mkt8zJIGHchbAbS0iDyK7sG\nxUpXYYUxSkKucUyvUJ2EYSkyOCM2FJLCT/RaxZTkre+1RDfF0ob4rTgB49ZijM8B\nKi4tt10XL07IA9YCwWXpZ/UkfzBU1S8pH7NFEruAgL03fIzv61mVp24Fq/E7MiLB\nib+FE11C4QIzIB71hEdQSgcywk7gWlA5dm4y9djVaDJfYijsNOVvuG9s73h3VDl8\nqYIVnS4ub1BdnsjSOi4ZJZX055PX/JxW3aTmrHMaLzAKocaPpiPSFdL+/Hb4kX3f\nE+/v44kqEo5VIZ7yr7TffP2zAnd0c0sJsZEdzcwfAQKBgQDZr7nnxWUKQ+jWhz44\ng3zVLIHSYZ66nF2VF4tnJA+izwX7rfnpuNu2QWSPZsk1MYpd0C08oX9JV5plNdbz\numY3IBRaADcPKVoNJgK7F9dTGtKsIDx7MGRw0ikigvlNx8yc5xnCN/b5l57U6TGs\n+WHZsaKlVYnQcxAxCx5KrJ3lAQKBgQC3XhX0WrAxZ9mDInSYresOX9BoEtXCqJaB\n81Q6op0rJsdElFS+Qpn66cXRZbqJpd00rR3943LpHjTcYp1/lTocaBMocELnQqyD\nBh8flWqYS+SXkagCrDURocRHLFQ9ZbKXgsZOAtD7X2MwsPhY7DPLxlI/cZSBBEU3\nuF0/KZcbQQKBgQC4ZcXJ0glMD8h9aSTIxIELJt91seG+W9ReBgq9POvN0yZTUsVf\nOYtMMMqZOs14NNXrr/uR34+uNfoAgAHshdouGguDTalWO4YfmzI2//QTXqZUzh3N\nkGmUtEHKDT5Xp8bopk7ImZWpScluu3ar+rfrqzCGcxYBsGZn1O48/UnnAQKBgQCG\nEW+B6rC6XtDFNXMEktyy9NEe1u6d1b+9odiqymyZuU+mz8EqHu4Qa84r7PI3ZCNZ\nOV4dXKiO03wYyq2XM9d6H4oqXfI8vh396oLlB80ZLxwiyeeKlLh0fM9SrpGlFm8+\noeo17Y84y6RtXGcoNQMl8Yn/Qx8uOZ4WQGFFJjaKQQKBgFzatgsyDhukeMbVOJ34\n46nsXQPMFpgrOzyKcmRlf3lma4CRHf+Ibauq5Q6bj9GjuwcicPrn/qwGeMdVlqf8\nmW1Tq5bggm9jy6JVWTYEyVbMh9C6fvS/Ur5e4rSf7g529u5t1/7G4WxahTMUXUN7\nMNP6azPCPyN1aT1Z4GxNyzlu\n-----END PRIVATE KEY-----\n",
+    "client_email": "speech-to-text-quickstart@momu-administrator.iam.gserviceaccount.com",
+    "client_id": "107592152045081972003",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text-quickstart%40momu-administrator.iam.gserviceaccount.com"
+  }
+  

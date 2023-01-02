@@ -8,7 +8,7 @@ io.on('connection', function (socket) {
 
 // Instantiates a client
    const speech = Speech({
-        keyFilename: '' // file json key
+        keyFilename: './speech-to-text-key.json' // file json key
    });
     const encoding = 'LINEAR16';
     const sampleRateHertz = 16000;
@@ -22,11 +22,6 @@ io.on('connection', function (socket) {
         interimResults: false // If you want interim results, set this to true
     };
 
-    socket.on('LANGUAGE_SPEECH', function (language) {
-        console.log('set language');
-        request.config.languageCode = language;
-    })
-
 // Create a recognize stream
     const recognizeStream = speech.streamingRecognize(request)
         .on('error', function(error){
@@ -37,16 +32,23 @@ io.on('connection', function (socket) {
             socket.emit('SPEECH_RESULTS',(data.results[0] && data.results[0].alternatives[0])
                 ? `${data.results[0].alternatives[0].transcript}\n`
                 : `Reached_transcription_time_limit`)
+        }).on("end", () => {
+            //this gets called every second. 
+            console.log("Rec END")
         });
 
 
     console.log('SERVER CONNECT');
     ss(socket).on('START_SPEECH', function (stream) {
+        console.log('START_SPEECH');
         stream.pipe(recognizeStream);
     });
-
-    socket.on('STOP_SPEECH', function () {
-        console.log('Disconnected!');
+    socket.on('LANGUAGE_SPEECH', function (language) {
+        console.log('set language');
+        request.config.languageCode = language;
+    }).on('STOP_SPEECH', function () {
+        console.log('STOP_SPEECH');
+        speech.streamingRecognize(null);
     })
 });
 
